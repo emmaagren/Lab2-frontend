@@ -3,6 +3,12 @@
 En webbplats skapad av Emma Ågren som en del av laboration 2 i kursen Backend-baserad webbutveckling vid Mittuniversitetet.
 Webbplatsen är en fristående frontend som kommunicerar med ett RES API för att hantera arbetslivserfarenheter.
 
+## Publicerad webbplats
+
+Webbplatsen är publicerad på Netlify:
+
+https://lab2-frontend.netlify.app/
+
 ## Tekniker
 
 - HTML
