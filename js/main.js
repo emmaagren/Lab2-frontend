@@ -1,6 +1,6 @@
 "use strict";
 
-const apiURL = "https://lab2-workexperience-api.onrender.com/api/workexperience";
+const apiUrl = "https://lab2-workexperience-api.onrender.com/api/workexperience";
 
 const experienceList = document.querySelector("#experience-list");
 const message = document.querySelector("#message");
@@ -10,7 +10,7 @@ async function getExperiences() {
     try {
         message.textContent = "Hämtar arbetslivserfarenheter...";
 
-        const response = await fetch(apiURl);
+        const response = await fetch(apiUrl);
 
         if (!response.ok) {
             throw new Error("Kunde inte hämta arbetslivserfarenheter.");
